@@ -1,0 +1,11 @@
+channel: slack
+
+Hey team, quick update on the pilot and where things stand across all of the lanes we are running right now, plus a few thoughts on next steps for the group.
+
+| Lane | On-time | Cost per load | Status |
+|---|---|---|---|
+| Memphis | 96% | $1,140 | green |
+| Tulsa | 81% | $1,320 | red |
+| Dayton | 90% | $1,205 | yellow |
+
+At its core, the pilot is working. That said, we should circle back on Tulsa once we have a robust read on the carrier issue, and do a deep dive on the Dayton costs before the quarterly review. I think we can unlock real savings here if we move quickly. Let me know your thoughts. Happy to discuss whenever works for everyone.

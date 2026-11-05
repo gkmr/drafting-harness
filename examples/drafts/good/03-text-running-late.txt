@@ -1,0 +1,5 @@
+channel: text
+
+Running 15 min late, traffic on the bridge.
+
+Still good for the 7:30 table? I can call ahead and push it if you want.

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# local state and backups
+.state/
+*.bak
+*.pre-v*
+node_modules/
+
+# personal files that must never be committed
+voice-profile.md
+claims-ledger.json

@@ -1,0 +1,12 @@
+channel: email
+
+Subject: Following up
+
+Hi Jordan,
+
+I hope this email finds you well, and I know you're busy, so I just wanted to follow up on the proposal we discussed last week. Our team has been on quite a journey with this project, and I believe the new routing approach is a compelling way to leverage the data we already have. It's worth noting that the pilot results were strong across the board. Perhaps we could expand to more lanes next quarter. We would love to find some time to touch base.
+
+In summary, the proposal is ready for your review and we would welcome any feedback you might have at your earliest convenience.
+
+Best,
+Rae

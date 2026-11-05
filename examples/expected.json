@@ -1,0 +1,16 @@
+{
+  "_about": "What gates/lint.py must say about each example. 'fails: 0' means the file must pass. 'must_fire' lists rules that must appear as FAIL; 'must_warn' lists rules that must appear as WARN. tests/test_lint.py enforces this file.",
+  "drafts/good/01-slack-pilot-update.txt": {"mode": "draft", "fails": 0},
+  "drafts/good/02-email-vendor-dispute.txt": {"mode": "draft", "fails": 0},
+  "drafts/good/03-text-running-late.txt": {"mode": "draft", "fails": 0},
+  "drafts/good/04-linkedin-recruiter-reply.txt": {"mode": "draft", "fails": 0},
+  "drafts/bad/01-slack-table-and-filler.txt": {"mode": "draft", "must_fire": ["length", "table-in-chat", "banned-phrase", "cliche", "soggy-middle"], "must_warn": ["hedge"]},
+  "drafts/bad/02-email-soggy-middle.txt": {"mode": "draft", "must_fire": ["banned-phrase", "cliche", "soggy-middle", "recap-closer"], "must_warn": ["hedge", "apology-opener"]},
+  "drafts/bad/03-whatsapp-markdown.txt": {"mode": "draft", "must_fire": ["length", "markdown-in-plain-text"], "must_warn": ["list-in-plain-text"]},
+  "drafts/bad/04-linkedin-ai-tells.txt": {"mode": "draft", "must_fire": ["em-dash", "placeholder", "banned-phrase", "cliche", "markdown-in-plain-text"], "must_warn": ["hashtag-wall", "not-just-x-but-y"]},
+  "outputs/s1-confirmation.md": {"mode": "contract", "fails": 0},
+  "outputs/s2-recruiter-timing.md": {"mode": "contract", "fails": 0},
+  "outputs/s3-pilot-extension.md": {"mode": "contract", "fails": 0},
+  "outputs/bad-s2-fake-fork-merge.md": {"mode": "contract", "must_fire": ["fake-fork", "merge", "no-selection", "missing-matrix", "thin-tree"]},
+  "outputs/bad-s3-generic-adversary.md": {"mode": "contract", "must_fire": ["draft-count", "generic-adversary", "missing-premortem", "untagged-draft", "no-selection", "thin-tree"]}
+}

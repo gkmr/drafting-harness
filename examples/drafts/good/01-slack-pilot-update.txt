@@ -1,0 +1,7 @@
+channel: slack
+
+Pilot decision Friday: go on the Memphis lane, hold on Tulsa.
+- Memphis: on-time rate 96% for 3 weeks, cost per load flat
+- Tulsa: two carrier no-shows last week, root cause not known yet
+- Ask: @Devon, can you confirm the Tulsa backup carrier by Thursday noon?
+Numbers and method are in the pilot doc: https://example.com/pilot-review

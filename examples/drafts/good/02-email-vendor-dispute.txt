@@ -1,0 +1,15 @@
+channel: email
+
+Subject: Duplicate charge of $1,284.50 on invoice 4471, fix by Friday
+
+Hi Morgan,
+
+Invoice 4471 billed us twice for the same March pallet move, $1,284.50 each time.
+
+Two asks:
+1. Reverse the second charge by Friday, March 14.
+2. Send the corrected invoice to you@example.com.
+
+The original confirmation is attached. Thanks for sorting it out.
+
+Rae Calder

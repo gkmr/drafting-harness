@@ -1,0 +1,35 @@
+# Banned phrases for gates/lint.py. One rule per line, tab separated:
+# severity<TAB>rule<TAB>regex (case-insensitive)<TAB>fix
+# severity is fail or warn. A voice profile can exempt a word with its "Keep words" list.
+# These are the phrases readers most often name when they say a draft "sounds like AI".
+fail	banned-phrase	\bleverag(e|es|ed|ing)\b	say "use"
+fail	banned-phrase	\bactionable\b	say what the reader should do
+fail	banned-phrase	\bdelv(e|es|ed|ing)\b	say "look at", or cut
+fail	banned-phrase	\btapestry\b	cut it
+fail	banned-phrase	\brobust\b	name the property: tested, redundant, fast
+fail	banned-phrase	\bseamless(ly)?\b	say what does not break, or cut
+fail	banned-phrase	\btransformative\b	state the change and its size
+fail	banned-phrase	\bcompelling\b	say why it convinces
+fail	banned-phrase	\bgame[- ]changer\b	state the change and its size
+fail	banned-phrase	\bcutting[- ]edge\b	name the thing
+fail	banned-phrase	\bsynerg(y|ies)\b	name the shared gain
+fail	banned-phrase	\bspearhead(s|ed|ing)?\b	say "led" and give the outcome
+fail	banned-phrase	\bjourney\b	cut it, or name the period
+warn	banned-phrase	\bnavigat(e|es|ed|ing)\b	say "handle" or "work through", unless you mean a screen
+fail	cliche	\bcircle back\b	give the date you will follow up
+fail	cliche	\btouch base\b	say what you want to discuss
+fail	cliche	\bdeep dive\b	say "review" or "look closely at"
+fail	cliche	\bkey takeaways?\b	state the takeaway
+fail	cliche	\bat its core\b	cut it
+fail	cliche	\bit'?s worth noting\b	cut it and state the point
+fail	cliche	\bthat said,	cut it, or use "but"
+fail	cliche	\bin today'?s fast[- ]paced\b	cut it
+fail	cliche	\bI want to be transparent\b	cut it, then be specific
+fail	cliche	\bI appreciate you sharing\b	respond to what they shared
+warn	cliche	\bunlock(s|ed|ing)?\b	say what becomes possible
+warn	cliche	\broadmaps?\b	say "plan" unless you mean the document
+warn	cliche	\bhope this (email |message |note )?finds you well\b	open with the point
+warn	hedge	\bI (believe|think|feel like)\b	state it, or name the evidence
+warn	hedge	\bperhaps\b	commit, or name the condition that decides it
+warn	hedge	\bit seems\b	state what you saw
+warn	hedge	\bjust wanted to\b	cut "just wanted to"
