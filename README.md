@@ -1,5 +1,7 @@
 # drafting-harness
 
+[![tests](https://github.com/gkmr/drafting-harness/actions/workflows/tests.yml/badge.svg)](https://github.com/gkmr/drafting-harness/actions/workflows/tests.yml) ![python](https://img.shields.io/badge/python-3.9%20%7C%203.12-blue) ![deps](https://img.shields.io/badge/dependencies-stdlib%20only-brightgreen) [![license](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
 A Claude skill and a stdlib Python gate for drafting messages that have to work: fork
 drafts by opposed objectives, attack them with a named adversary, select one, and let a
 script (not the model) decide whether the result ships.
